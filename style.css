@@ -1,0 +1,57 @@
+body{
+    background-color: aliceblue
+}
+
+.header{
+    height: 60px;
+    line-height: 60px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: yellow;
+}
+
+h1{
+    margin: 0px
+}
+
+.navigation{
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    padding: 0;
+    display:flex;
+
+}
+
+.navigation li{
+    padding: 20px;
+}
+
+.navigation li a{
+    text-decoration: none;
+    color: black;
+
+}
+
+.navigation li a:hover {
+    color: white;
+}
+
+.main{
+    display: flex;
+}
+
+.content{
+    width: 70%;
+    min-height: 500px;
+    background-color: #333;
+    color: white;
+    padding: 20px;
+}
+
+.blog-post{
+    margin: 10px;
+    background-color: white;
+    border: 
+}
