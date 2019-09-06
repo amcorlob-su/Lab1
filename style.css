@@ -16,8 +16,8 @@ body{
     justify-content: space-between;
     align-items: center;
     background-color: yellow;
-}
 
+}   
 h1{
     margin: 0px
 }
@@ -47,6 +47,7 @@ h1{
 
 .main{
     display: flex;
+
 }
 
 .sidebar{
@@ -54,21 +55,34 @@ h1{
     min-height: 500px;
     background-color: #333;
     color: white;
-   margin:  20px;
-   padding:20px;
+   margin: 10px;
+   padding:10px;
     
 }
 
 .blog-post{
     margin: 10px;
     background-color: white;
-    border: 
+    border-style:solid;
+    border-color: lightgray;
+    border-radius: 5px;
+    padding:10px;
+    width: 800px;
+    
+    
 }
 
 .content{
-    display: flex;
-    width:70%;
+    
+    width: 70%;
     min-height: 500px;
-    margin:20px;
-    padding: 20pxl
+    margin:0px;
+    padding: 20px;
+    
+}
+
+img{
+    float: left;
+    padding: 5px;
+    margin:5px;
 }
